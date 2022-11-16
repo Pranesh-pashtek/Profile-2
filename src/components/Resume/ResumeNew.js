@@ -8,8 +8,8 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =  
-  "http://localhost:3000/static/media/pranesh%20resume%20Office.9537dfb5c3676852946a.pdf";
+const resumeLink =  "https://profile-2.vercel.app/static/media/pranesh%20resume%20Office.9537dfb5c3676852946a.pdf";
+  // "http://localhost:3000/static/media/pranesh%20resume%20Office.9537dfb5c3676852946a.pdf";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
